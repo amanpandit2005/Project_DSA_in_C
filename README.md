@@ -1,31 +1,61 @@
-# Project DSA in C — Parcel Delivery System 📦
+<div align="center">
 
-An algorithmic logistics application written in C to simulate a real-time **Parcel Delivery System**. This project uses data structures and optimization principles to schedule, allocate, and route deliveries.
+# 📦 Parcel Delivery System
+
+### An algorithmic logistics engine, built from scratch in C
+
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![DSA](https://img.shields.io/badge/Focus-Data%20Structures-blueviolet?style=for-the-badge)
+![Logistics](https://img.shields.io/badge/Domain-Logistics-orange?style=for-the-badge)
+
+</div>
+
+A simulation of a real-time parcel delivery system — scheduling, allocating, and routing deliveries using core data structures and optimization principles, with zero external dependencies.
 
 ---
 
 ## 🛠️ Key Features
 
-*   **Parcel Sorting**: Organizes parcels dynamically based on priority, destination, and dimensions.
-*   **Optimized Routing**: Simulates route plotting to minimize transit costs and delivery time.
-*   **Low-Level Memory Management**: Implemented entirely in standard C, using custom pointers, arrays, and structs to ensure high-performance executions.
+| Feature | Description |
+|---|---|
+| 📥 **Parcel Sorting** | Organizes parcels dynamically by priority, destination, and dimensions |
+| 🗺️ **Optimized Routing** | Simulates route plotting to minimize transit cost and delivery time |
+| ⚙️ **Low-Level Memory Management** | Pure standard C — custom pointers, arrays, and structs for high-performance execution |
 
 ---
 
 ## 📂 Data Structures Implemented
 
-*   **Structs**: Custom structures modeling Parcels (ID, weight, address) and Delivery Vans.
-*   **Arrays/Lists**: Storing current inventories and routing stops.
-*   **Queueing Systems**: Scheduling parcel priority queues (FIFO/Priority-based).
+| Structure | Used for |
+|---|---|
+| **Structs** | Modeling Parcels (ID, weight, address) and Delivery Vans |
+| **Arrays / Lists** | Storing current inventories and routing stops |
+| **Queues** | Parcel priority scheduling (FIFO / priority-based) |
 
 ---
 
 ## 🚀 How to Run Locally
 
-### Requirements
-You will need a C compiler (`gcc` or similar toolchains) installed.
+**Requirements**
 
-### Compile
-Run this command in your terminal:
+A C compiler — `gcc` or similar — installed on your machine.
+
+**Compile**
+
 ```bash
 gcc main.c -o parcel_system
+```
+
+**Run**
+
+```bash
+./parcel_system
+```
+
+---
+
+<div align="center">
+
+Built with pointers, structs, and zero shortcuts. 🧭
+
+</div>
